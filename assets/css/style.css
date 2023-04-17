@@ -95,3 +95,14 @@ p.date{
     font-size: 13px;
     color: #767676;
 }
+
+@media screen and (max-width:768px) {
+    .container{
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+    h1{
+        font-size: 0.8em !important;
+    }
+}
